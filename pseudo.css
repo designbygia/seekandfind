@@ -1,0 +1,43 @@
+a{
+    decoration: none;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: orange;
+}
+
+
+a[href]:hover, button:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    border: 1px solid green;
+}
+:hover{
+    border: 2px solid green;
+}
+
+
+.sitenav {
+    padding: 0 20px;
+
+}
+
+.sitenav ul{
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.sitenav li{
+    display: inline-block;
+    
+}

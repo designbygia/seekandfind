@@ -5,34 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interneting is Easy!</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <h1>Interneting is Easy!</h1>
-    <p>First, we need to learn some basic HTML.</p>
-    <h2>Headings</h2>
-    <p>Headings define the outline of your site. There are six levels of headings.</p>
-    <h2>Lists</h2>
-    <p>This is how you make an unordered list:</p>
-    <ul>
-        <li>Add a "ul" element (it stands for unordered list)</li>
-        <li>Add each item in its own "li" element.</li>
-        <li>They don't need to be in any particular order.</li>
-    </ul>
-    <p>This is what an ordered list looks like:</p>
-    <ol>
-        <li>Notice the new "ol" element wrapping everything.</li>
-        <li>But, the list item elements are the same.</li>
-        <li>Also, notice how the numbers increment on their own?</li>
-        <li>You should be noticing things in a precise order, because this is an ordered list.</li>
-    </ol>
-    <h2>Inline Elements</h2>
-    <p><em>Sometimes</em>, you need to draw attention to a particular word or phrase.</p>
-    <p>Other times, you need to <strong>strongly</strong> emphasize the importance of a word or phrase.</p>
-    <h2>Empty Elements</h2>
-    <p>Thanks for reading! Interneting should be getting easier now.</p>
-    <p>Regards,<br>
+    <div class="container">
+
+    
+    <div class="box-1">
+        <h1>Interneting is Easy!</h1>
+        <p>First, we need to learn some basic HTML.</p>
+    </div>
+    <div class="box-2">
+        <h2>Headings</h2>
+        <p>Headings define the outline of your site. There are six levels of headings.</p>
+    </div>
+    <div class="categories">
+        <h2>Lists</h2>
+        <p>This is how you make an unordered list:</p>
+        <ul>
+            <li>Add a "ul" element (it stands for unordered list)</li>
+            <li>Add each item in its own "li" element.</li>
+            <li>They don't need to be in any particular order.</li>
+        
+            <p>
+                <a class="button" href="https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/">Learn more</a>
+            </p>
+        
+        </ul>
+        <p>This is what an ordered list looks like:</p>
+        <ol>
+            <li>Notice the new "ol" element wrapping everything.</li>
+            <li>But, the list item elements are the same.</li>
+            <li>Also, notice how the numbers increment on their own?</li>
+            <li>You should be noticing things in a precise order, because this is an ordered list.</li>
+        </ol>
+    </div>
+        <h2>Inline Elements</h2>
+        <p><em>Sometimes</em>, you need to draw attention to a particular word or phrase.</p>
+        <p>Other times, you need to <strong>strongly</strong> emphasize the importance of a word or phrase.</p>
+
+        <div>
+        <form class="my-form">
+            <div class="form-group">
+                <label for="first name">First Name</label>
+                <input id="first name" type="text"><br>
+            </div>
+
+                <div class="form-group">
+                <label for="last name">Last Name</label>
+                <input id="last name" type="text"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="text"><br>
+            </div>
+                
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input id="subject"type="text"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="describe">Description</label><br>
+                <textarea id="describe" name="describe" placeholder="Enter description here."></textarea> 
+            </div>
+
+           
+        <div class="form-group">
+            <input class="button" type="submit" value="Submit" name=" ">
+        </div>
+
+        </form>
+        </div>
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum, veritatis velit perspiciatis ab, magnam doloribus assumenda dicta accusantium tenetur, dolorum hic sit. Velit cumque laborum quidem cupiditate! Aspernatur, fugit!</p>
+        </div>
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum, veritatis velit perspiciatis ab, magnam doloribus assumenda dicta accusantium tenetur, dolorum hic sit. Velit cumque laborum quidem cupiditate! Aspernatur, fugit!</p>
+        </div>
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum, veritatis velit perspiciatis ab, magnam doloribus assumenda dicta accusantium tenetur, dolorum hic sit. Velit cumque laborum quidem cupiditate! Aspernatur, fugit!</p>
+        </div>
+
+        <div class="clr"></div>
+
+        <div id="main-block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum, veritatis velit perspiciatis ab, magnam doloribus assumenda dicta accusantium tenetur, dolorum hic sit. Velit cumque laborum quidem cupiditate! Aspernatur, fugit!</p>
+        </div>
+
+        <div id="sidebar">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum, veritatis velit perspiciatis ab, magnam doloribus assumenda dicta accusantium tenetur, dolorum hic sit. Velit cumque laborum quidem cupiditate! Aspernatur, fugit!</p>
+        </div>
+
+        <h2>Empty Elements</h2>
+        <p>Thanks for reading! Interneting should be getting easier now.</p>
+        <p>Regards,<br>
         The Authors</p>
         <hr>
-    <p>P.S. This page might look like garbage, but we'll fix that with some css later.</p>
+        <p>P.S. This page might look like garbage, but we'll fix that with some css later.</p>
+
+        <img src="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories/content_categories_venn.png" alt="html image">
+    </div>
 </body>
 </html>
